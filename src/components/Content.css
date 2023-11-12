@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    background-color: rgb(100, 124, 124);
+    height: 100%;
+    box-sizing: border-box;
+    margin: 30px;
+}

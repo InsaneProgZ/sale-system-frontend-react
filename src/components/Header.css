@@ -1,0 +1,39 @@
+:root {
+    --header-color: rgba(17, 4, 75, 0.932);
+    --icon-color: rgba(66, 46, 155, 0.932);
+    --icon-color-backgroud: rgba(73, 54, 158, 0.932);
+    --text-gainsboro: gainsboro;
+    --white: white;
+}
+
+.icon {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 4px 12px;
+    background-color: var(--icon-color);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-gainsboro);
+}
+
+.icon:hover {
+    color: var(--white);
+    background-color: var(--icon-color-backgroud);
+}
+
+.logo {
+    margin: 10px;
+    padding-right: 20px;
+    font-size: 2.5rem;
+    cursor: default;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding: 0;
+    background-color: var(--header-color);
+}
